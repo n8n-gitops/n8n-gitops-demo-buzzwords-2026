@@ -1,0 +1,27 @@
+name: n8n Validate on PR
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'n8n/**'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install n8n-gitops
+        run: pip install n8n-gitops
+
+      - name: Validate workflows (offline)
+        run: n8n-gitops validate
+
+      - name: Dry-run deploy (offline)
+        run: n8n-gitops deploy --dry-run
