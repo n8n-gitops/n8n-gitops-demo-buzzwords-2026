@@ -29,7 +29,7 @@ jobs:
           N8N_API_KEY: ${{ secrets.N8N_PROD_API_KEY }}
 
       - name: Deploy to production
-        run: n8n-gitops deploy --git-ref ${{ github.ref_name }}
+        run: n8n-gitops deploy --git-ref ${{ github.ref_name }} --prune
         env:
           N8N_API_URL: ${{ secrets.N8N_PROD_URL }}
           N8N_API_KEY: ${{ secrets.N8N_PROD_API_KEY }}
