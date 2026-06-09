@@ -1,5 +1,6 @@
 // Extract script URLs from HTML
 // Return only JavaScript links
+// Some comment
 const output = [];
 const html = $input.first()?.json?.body || '';
 const regex = /<script[^>]*src="([^"]+)"[^>]*>/g;
