@@ -95,9 +95,7 @@
     }
   },
   "description": null,
-  "meta": null,
   "name": "Build your own PostgreSQL MCP server",
-  "nodeGroups": [],
   "nodes": [
     {
       "id": "2273c4ee-9aa6-49b9-8287-6fee9e759254",
@@ -605,12 +603,10 @@
       "typeVersion": 1
     }
   ],
-  "pinData": null,
   "settings": {
     "availableInMCP": false,
     "callerPolicy": "workflowsFromSameOwner",
     "executionOrder": "v1"
   },
-  "staticData": null,
   "tags": []
 }

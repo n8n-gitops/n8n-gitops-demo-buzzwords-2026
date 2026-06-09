@@ -37,9 +37,7 @@
     }
   },
   "description": null,
-  "meta": null,
   "name": "Deduplicate data records using JavaScript array methods",
-  "nodeGroups": [],
   "nodes": [
     {
       "id": "3406d256-497f-44c0-b1ed-b9ce739b769f",
@@ -172,12 +170,10 @@
       "typeVersion": 1
     }
   ],
-  "pinData": null,
   "settings": {
     "availableInMCP": false,
     "callerPolicy": "workflowsFromSameOwner",
     "executionOrder": "v1"
   },
-  "staticData": null,
   "tags": []
 }

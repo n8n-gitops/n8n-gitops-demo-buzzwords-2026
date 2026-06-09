@@ -391,9 +391,7 @@
     }
   },
   "description": null,
-  "meta": null,
   "name": "✨🤖Automated AI Powered Social Media Content Factory for  X + Facebook + Instagram + LinkedIn",
-  "nodeGroups": [],
   "nodes": [
     {
       "id": "d0d108a0-9e0b-4567-bf38-b3bf11cafa5a",
@@ -1555,12 +1553,10 @@
       "typeVersion": 2
     }
   ],
-  "pinData": null,
   "settings": {
     "availableInMCP": false,
     "callerPolicy": "workflowsFromSameOwner",
     "executionOrder": "v1"
   },
-  "staticData": null,
   "tags": []
 }

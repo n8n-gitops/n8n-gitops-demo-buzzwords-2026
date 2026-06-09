@@ -92,9 +92,7 @@
     }
   },
   "description": null,
-  "meta": null,
   "name": "JavaScriptSentry: detect sensitive information in JavaScript",
-  "nodeGroups": [],
   "nodes": [
     {
       "id": "95ca5be4-f442-4e54-aa9f-08562ac6429b",
@@ -320,12 +318,10 @@
       "typeVersion": 2
     }
   ],
-  "pinData": null,
   "settings": {
     "availableInMCP": false,
     "callerPolicy": "workflowsFromSameOwner",
     "executionOrder": "v1"
   },
-  "staticData": null,
   "tags": []
 }
